@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Studio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div class="container">
+    <h1>✨ AI Image & Text Studio</h1>
+
+    <!-- TEXT SECTION -->
+    <div class="card">
+      <h2>📝 Text to Image</h2>
+
+      <textarea id="promptInput" placeholder="Enter your idea..."></textarea>
+
+      <div class="btn-group">
+        <button onclick="enhancePrompt()">Enhance</button>
+        <button onclick="generateImage()">Generate Image</button>
+      </div>
+
+      <p id="enhancedText"></p>
+    </div>
+
+    <!-- IMAGE OUTPUT -->
+    <div class="card">
+      <h2>🖼️ Generated Image</h2>
+      <div id="imageContainer"></div>
+    </div>
+
+    <!-- IMAGE ANALYSIS -->
+    <div class="card">
+      <h2>📷 Image Analysis</h2>
+
+      <input type="file" id="imageInput"/>
+      <button onclick="analyzeImage()">Analyze</button>
+
+      <p id="imageResult"></p>
+    </div>
+
+    <!-- STATUS -->
+    <p id="statusMessage"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
