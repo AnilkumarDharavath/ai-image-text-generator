@@ -22,3 +22,4 @@ Technologies Used:
 - Hugging Face API
 
 This project demonstrates API integration, secure backend practices, and user-friendly interface design.
+<img width="1778" height="954" alt="Ai-image-genarator project screen shot" src="https://github.com/user-attachments/assets/c00dcda2-24f6-4405-9f5c-4137b1d2d6d3" />
